@@ -3,14 +3,13 @@ import React, { useEffect, useState } from 'react'
 import { AiOutlineDown } from 'react-icons/ai'
 import { BiSearch } from 'react-icons/bi'
 import { FaMoon } from 'react-icons/fa'
-import ReadMore from './ReadMore'
 import { Navigate, useNavigate } from 'react-router-dom'
 
 function Home() {
   const[menu, setMenu] = useState(false) 
   const[fetchData, setFetchedData] = useState([]);
   const[searchQuery, setSearchQuery] = useState("")
-  const[toggle, setToggle] = useState(true)
+  const[toggle, setToggle] = useState(false)
   const navigate = useNavigate();
  
   const[loading, setLoading] = useState(false)
