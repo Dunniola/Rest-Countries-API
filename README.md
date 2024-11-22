@@ -60,7 +60,7 @@ Mobile Design Home Light
 ### Links
 
 - View Demo: [view Demo](https://github.com/Dunniola/Rest-Countries-API)
-- Live Site : [Dunniola](https://main-countries-api.netlify.app/read-more)
+- Live Site : [Dunniola](https://main-countries-api.netlify.app/)
 
 ## My process
 
@@ -77,7 +77,7 @@ Mobile Design Home Light
 
 ## Author
 
-- Website - [Dunniola](https://main-countries-api.netlify.app/read-more)
+- Website - [Dunniola](https://main-countries-api.netlify.app/)
 - Frontend Mentor - [@Dunniola](https://www.frontendmentor.io/profile/Dunniola)
 - Twitter - [@Eduoladunni](https://www.twitter.com/Eduoladunni)
 
