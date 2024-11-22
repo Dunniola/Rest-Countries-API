@@ -59,8 +59,8 @@ Mobile Design Home Light
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- View Demo: [view Demo](https://github.com/Dunniola/Rest-Countries-API)
+- Live Site : [Dunniola](https://your-live-site-url.com)
 
 ## My process
 
