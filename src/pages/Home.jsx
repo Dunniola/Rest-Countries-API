@@ -153,7 +153,7 @@ const displayedData = filteredData.slice(0, 8);
                 <img src={country.flags.png} alt="" className=" w-full h-[10rem] object-cover" />
                 <div className={`px-5 ${toggle ? "bg-Neutral-darkBlue text-Neutral-veryLightGray" : "bg-Neutral-white text-Neutral-darkBlue shadow-lg"}`}>
                 <h2 className={` ${toggle ? "text-Neutral-white" : "text-Neutral-darkBlue"} text-[1.2rem] font-bold`}>{country?.name.common}</h2>
-                <p className=''>Population: <span className='text-Neutral-darkGray'>{country?.population}</span></p>
+                <p className=''>Population: <span className='text-Neutral-darkGray'>{country?.population?.toLocaleString() || "N/A"}</span></p>
                 <p>Region: <span className='text-Neutral-darkGray'>{country?.region}</span></p>
                 <p>Capital: <span className="text-Neutral-darkGray">{country?.capital}</span></p>
                 </div>
