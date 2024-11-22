@@ -116,7 +116,7 @@ function ReadMore() {
               : "N/A"}
           </p>
           <p>
-            <strong>Population:</strong> {country?.population}
+            <strong>Population:</strong> {country?.population?.toLocaleString() || "N/A"}
           </p>
           <p>
             <strong>Region:</strong> {country?.region}
